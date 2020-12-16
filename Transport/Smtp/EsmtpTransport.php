@@ -102,6 +102,7 @@ class EsmtpTransport extends SmtpTransport
             return;
         }
 
+        return;
         $capabilities = $this->getCapabilities($response);
 
         /** @var SocketStream $stream */
